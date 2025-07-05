@@ -1,0 +1,65 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #fffafc;
+  color: #3b2c35;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #ffe4ec;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #b30059;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #fff0f5;
+}
+
+.schedule {
+  list-style: none;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.schedule li {
+  background: #fff7fb;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-left: 4px solid #b30059;
+}
+
+.rsvp-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rsvp-form input,
+.rsvp-form select,
+.rsvp-form button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.rsvp-form button {
+  background-color: #b30059;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
